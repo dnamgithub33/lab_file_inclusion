@@ -14,7 +14,7 @@
             <li><a href="index.php">Trang Chủ</a></li>
             <li><a href="#">Về Chúng Tôi</a></li>
             <li><a href="index.php?page=blog.php">Blog</a></li>
-            <li><a href="upload.php">Liên Hệ</a></li>
+            <li><a href="upload.php">Gửi CV cho chúng tôi</a></li>
         </ul>
     </nav>
 
