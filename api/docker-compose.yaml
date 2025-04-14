@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  php-upload-api:
+    build: .
+    ports:
+      - "80:80"  # Chuyển tiếp cổng 8080 của máy host tới cổng 80 trong container
+    volumes:
+      - ./src/:/var/www/html  # Mount mã nguồn vào container
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html  # Đảm bảo Apache sử dụng thư mục đúng
+
